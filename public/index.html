@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>CV Odalys Manzanares</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,37 +24,59 @@
   <script defer src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
 
   <style>
-    p{
+
+    @media print{
+      @page{
+        margin:0.5cm;
+        size: A4;
+      }
+    }
+
+    .od-border-bottom{
+      border-bottom: lavender 3px dotted ;
+    }
+    .od-background{
+      background-color: lavender;
+    }
+    p, li{
+      font-family: "Segoe UI",serif;
       font-size: small;
     }
     li{
-      font-size: small;
+      list-style-type: circle;
     }
-    @page{margin:.5cm}
+    h1, h2, h3, h4, h5, h6{
+      font-family: "Segoe UI",serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 
-<body>
+<body class="bg-light-subtle">
 
   <!-- Add your site or application content here -->
-  <div class="container">
-    <div class="row text-center">
-        <h1>Odalys Manzanares</h1>
-    </div>
-    <div class="row text-center">
-        <h2>Backend developer</h2>
+  <div class="container bg-white vh-100">
+    <div  class="pt-1 mb-2">
+      <div class="row text-center">
+          <h1 class="mb-0"><span>Odalys Manzanares Romero</span></h1>
+      </div>
+      <div class="row text-center">
+          <h3 class="text-muted fs-3 my-0 fw-normal"><i>Junior Backend Developer</i></h3>
+      </div>
     </div>
   <div class="row">
-    <h3>Presentación</h3>
-    <p class="mb-0">Desde siempre me han gustado los retos, por ello, cuando descubrí el mundo de la programación me apasionó. Admiro la
+    <h3 class="od-border-bottom">Presentación</h3>
+    <p class="mb-2">Desde siempre me han gustado los retos, por ello, cuando descubrí el mundo de la programación me apasionó. Admiro la
       manera en la que la programación cambia la forma de ver y solucionar los problemas. A causa de esto, he querido
       enfocar mi carrera profesional en esta dirección. Me considero una persona responsable, centrada, con grandes dotes
       para la organización, comprometida con el trabajo y autodidacta.
     </p>
   </div>
     <div class="row mt-1">
-      <div class="col-4">
-        <h4 class="mb-0">Tecnologías y Herramientas</h4>
+      <div class="col-4 od-background rounded-2 py-2">
+        <h4>Tecnologías y Herramientas</h4>
         <ul>
           <li class="pt-1">Java</li>
           <li class="pt-1">SQL</li>
@@ -63,11 +85,11 @@
           <li class="pt-1">HTML</li>
           <li class="pt-1">CSS</li>
           <li class="pt-1">Bootstrap</li>
-          <li class="pt-1">Entornos como <b>Eclipse, VSCode e IntelliJ</b></li>
+          <li class="pt-1">Entornos como <b>IntelliJ, Eclipse y VSCode</b></li>
           <li class="pt-1">Metodologías ágiles como <b>SCRUM</b></li>
         </ul>
 
-        <h4 class="mb-0">Certificados y Cursos</h4>
+        <h4>Certificados y Cursos</h4>
         <ul>
           <li class="pt-2">Taller de Desarrollo de CRUD con <b>Java EE</b></li>
           <li class="pt-2">Curso completo de <b>Azure Data Factory</b> para Data Engineers</li>
@@ -76,7 +98,7 @@
           <li class="pt-2">Curso de creación y <b>administración de BBDD</b> SQL</li>
         </ul>
 
-        <h4 class="mb-0">Contacto</h4>
+        <h4>Contacto</h4>
         <ul>
           <li class="pt-1">699 261 882</li>
           <li class="pt-1">odalystmr@gmail.com</li>
@@ -84,12 +106,10 @@
           <li class="pt-1"><a href="https://github.com/odalystmr/trellont/">github.com/odalystmr</a></li>
           <li class="pt-1">@odalystmr en RRSS</li>
         </ul>
-        <div class="text-center d-print-none">
-        <button type="button" onclick="window.print();" class="btn btn-dark" >Imprimir</button>
-        </div>
+
       </div>
       <div class="col">
-        <h3 class="mb-1">Experiencia</h3>
+        <h3 class="mb-1 od-border-bottom ">Experiencia</h3>
         <h5 class="mb-0">Deloitte Digital</h5>
         <h6 class="mb-0">Studio Associate</h6>
         <p class="text-muted mb-0"><i>Junio 2022 - Diciembre 2022</i></p>
@@ -97,7 +117,7 @@
           <b>Microsoft SQL Server</b>, para la generación de informes y envío de alertas
           publicitarias a los usuarios de uno de los principales clientes de Deloitte.
         </p>
-        <h5 class="mb-0">Deloitte Digital</h5>
+        <h5 class="mb-0 ">Deloitte Digital</h5>
         <h6 class="mb-0">Becaria</h6>
         <p class="text-muted mb-0"><i>Abril 2022 - Junio 2022</i></p>
         <p class="mb-2">
@@ -108,17 +128,15 @@
           15 años de experiencia </b> en BBDD.
         </p>
 
-        <h3 class="mb-1">Formación</h3>
+        <h3 class="mb-1 od-border-bottom">Formación</h3>
         <h5 class="mb-0">CFGS Desarrollo de Aplicaciones Web</h5>
         <h6 class="mb-0">IES Luis Vives</h6>
         <p class="text-muted mb-0"><i>2020 - 2022</i></p>
         <p class="mb-2">
-          Por el cual he adquirido los conocimientos para desarrollar aplicaciones
-          completas desde el <b>backend</b> hasta el <b>frontend</b> utilizando tecnologías como
-          <b>SQL</b> y <b>Java</b> en la parte del servidor y <b>HTML, CSS, Bootstrap y JavaScript</b>
+          Aprendiendo a desarrollar aplicaciones completas, desde el <b>backend</b> hasta el <b>frontend</b>.
+          Utilizando tecnologías como <b>Java</b> y <b>SQL</b> en la parte del servidor, y <b>HTML, CSS, Bootstrap y JavaScript</b>
           en la parte del cliente.
-          Durante el grado superior desarrollé un proyecto personal en Java. Lo
-          presente como proyecto final de ciclo, actualmente lo tengo publicado en mi
+          Durante el grado superior desarrollé un proyecto personal en Java. Fue mi proyecto final de ciclo. Esta público en mi
           perfil de <a href="https://github.com/odalystmr/trellont/">GitHub</a>.
         </p>
         <h5 class="mb-0">Grado en Ingeniería en Tecnologías Industriales</h5>
@@ -131,9 +149,9 @@
           estudié <b>física</b>, y <b>programación en C</b>.
         </p>
 
-        <h3 class="mb-1">Objetivos</h3>
-        <p class="mt-0">
-          Dentro de mis objetivos profesionales me gustaría poder estar en
+        <h3 class="mb-1 od-border-bottom ">Objetivos</h3>
+        <p class="my-0">
+          Dentro de mis objetivos profesionales me gustaría poder trabajar en
           una empresa que me permita estar en <b>formación continua</b> y
           desarrollarme como profesional. Donde haya buen ambiente de
           trabajo y <b>compañerismo</b>, pudiendo desarrollar proyectos
@@ -141,6 +159,10 @@
         </p>
       </div>
     </div>
+  </div>
+
+  <div class="text-center d-print-none  position-absolute top-0 m-3">
+    <button type="button" onclick="window.print();" class="btn btn-dark" >Imprimir</button>
   </div>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
