@@ -21,14 +21,19 @@
     <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap-utilities.min.css"/>
     <script defer src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script defer src="bootstrap-5.3.0/js/bootstrap.esm.min.js"></script>
-    <script defer src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
 
+
+
+    <script defer src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
     <style>
 
-        @media print {
-            @page {
-                margin: 0.5cm;
-                size: A4;
+        @media print{
+            @page{
+                margin: 0;
+            }
+            #id{
+                print-color-adjust:exact;
+                -webkit-print-color-adjust:exact;
             }
         }
 

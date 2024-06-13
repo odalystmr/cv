@@ -1,0 +1,65 @@
+
+
+/*************  STYLE FOR IDS   *************/
+
+#page {
+    background-color: rgba(156, 202, 155, 0.15);
+}
+
+#bg-color {
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+#cv-info {
+    margin-top: 0;
+}
+
+#contact-column {
+    padding: 2%;
+    background-color: rgba(156, 202, 155, 0.85);
+}
+
+#contact-column h3 {
+    padding-bottom: 2%;
+}
+
+#experience-column {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#experience-column h2 {
+    margin-bottom: 0.5%;
+}
+
+#button-download button a {
+    text-decoration: none;
+}
+
+/*************  STYLE FOR CLASSES   *************/
+
+.experience h5 {
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+
+.experience .company {
+    margin-bottom: 0;
+}
+
+.experience .experience-info {
+    padding-top: 1%;
+    margin-bottom: 0.5%;
+}
+
+.divider {
+    margin-left: -2%;
+    border-bottom: rgba(156, 202, 155, 0.85) 5px solid;
+}
+
+.bg-image{
+    background-image: url(public/images/forest.jpg);
+}
